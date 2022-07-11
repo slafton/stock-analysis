@@ -19,17 +19,16 @@
 
 ### Execution Times
 
-#### ![](Resources/AllStocksAnalysis2017.png)  
-#### ![](Resources/AllStocksAnalysis2018.png) 
-#### ![](Resources/VBA_Challenge_2017.png)
-#### ![](Resources/VBA_Challenge_2018.png)
+#### ![](Resources/AllStocksAnalysis2017.png)  ![](Resources/VBA_Challenge_2017.png.png)
+#### ![](Resources/AllStocksAnalysis2018.png)  ![](Resources/VBA_Challenge_2018.png.png)
+ 
 #### As shown above, the refactored code execution times are significantly faster. This will save the client time as the data set grows larger. We refactored, or edited, the code so that there was only one loop to make it faster. We set more arrays and reduced the number of loops. In our refactored code the tickerIndex is set equal to zero before looping over the rows. We created arrays for tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices. Then the tickerIndex is used to access the data set and loops through the data to get values. More comments were also added to the refactored code for better understanding.
 
 ## Summary
 
 ### Advantages and Disadvantages of Refactoring Code
 
-#### Refactoring code can allow for better comprehensibility and may facilitate maintenance and extendibility of the software; however, imprecise refactoring code could introduce new bugs and errors into the code. It may seem faster to reuse old code or copy code but you need to take the time to understand and make sure it is applicable to your needs. Also it is important to make small changes and test the code as you go to lessen the number of bugs you have as you go. 
+#### Refactoring code can allow for better understanding and may help the software last longer; however, imprecise refactoring code could introduce new bugs and errors into the code. It may seem faster to reuse old code or copy code but you need to take the time to understand and make sure it is applicable to your needs. Also it is important to make small changes and test the code as you go to lessen the number of bugs you have as you go. Adding good comments along the way will help the next person understand the changes made.
 
 ### Advantages and Disadvantages of Original and Refactored VBA Script
 
